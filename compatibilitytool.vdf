@@ -1,0 +1,22 @@
+"compatibilitytools"
+{
+  "compat_tools"
+  {
+    "TKG-proton-experimental.bleeding.edge.10.0.309137.20260209" // Internal name of this tool
+    {
+      // Can register this tool with Steam in two ways:
+      //
+      // - The tool can be placed as a subdirectory in compatibilitytools.d, in which case this
+      //   should be '.'
+      //
+      // - This manifest can be placed directly in compatibilitytools.d, in which case this should
+      //   be the relative or absolute path to the tool's dist directory.
+      "install_path" "."
+
+      "display_name" "TKG-proton-experimental.bleeding.edge.10.0.309137.20260209"
+
+      "from_oslist"  "windows"
+      "to_oslist"    "linux"
+    }
+  }
+}
